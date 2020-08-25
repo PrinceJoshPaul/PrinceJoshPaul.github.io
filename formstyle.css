@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+}
+
+.container{
+    padding: 40px 40px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 40px;
+}
+.header{
+    color: slateblue;
+    padding: 20px 20px 20px 0px;
+}
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.indentifiers{
+    color: cornsilk;
+}
+
+.box{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    border: 5px solid darkmagenta;
+    background-color: yellowgreen;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button{
+    border: 1px solid yellowgreen;
+    background: none;
+    color: yellowgreen;
+    padding: 20px 30px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Montsserat";
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+  
+  
+}
